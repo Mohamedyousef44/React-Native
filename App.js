@@ -1,8 +1,3 @@
-// import { StatusBar } from "expo-status-bar";
-// import { useCallback, useState } from "react";
-// import { FlatList, SafeAreaView, Text } from "react-native";
-// import styles from "./styles";
-// import Box from "./components/Box";
 
 import styles from "./styles";
 import { NavigationContainer } from "@react-navigation/native";
@@ -20,6 +15,31 @@ export default function App() {
   );
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //   const COLORS = [
 //     { colorName: "Base03", hexCode: "#002b36" },
 //     { colorName: "Base02", hexCode: "#073642" },
