@@ -1,14 +1,24 @@
-import { StatusBar } from "expo-status-bar";
-import { useCallback, useState } from "react";
-import { FlatList, SafeAreaView, Text } from "react-native";
+// import { StatusBar } from "expo-status-bar";
+// import { useCallback, useState } from "react";
+// import { FlatList, SafeAreaView, Text } from "react-native";
+// import styles from "./styles";
+// import Box from "./components/Box";
+
 import styles from "./styles";
-import Box from "./components/Box";
+import { NavigationContainer } from "@react-navigation/native";
+import Root from "./navigations/root";
+import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 
 export default function App() {
 
+  const Tab = createMaterialTopTabNavigator();
 
+  return (
+    <NavigationContainer>
+      <Root></Root>
+    </NavigationContainer>
+  );
 
-  
 }
 //   const COLORS = [
 //     { colorName: "Base03", hexCode: "#002b36" },
